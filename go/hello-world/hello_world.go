@@ -33,10 +33,6 @@ const testVersion = 4
 // not necessary for making your solutions pass.
 // https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences
 func HelloWorld() string {
-	// Write some code here to pass the test suite.
-
-	// When you have a working solution, REMOVE ALL THE STOCK COMMENTS.
-	// They're here to help you get started but they only clutter a finished solution.
-	// If you leave them in, reviewers will protest!
-	return ""
+	returnedValue := "Hello, World!"
+	return returnedValue
 }
